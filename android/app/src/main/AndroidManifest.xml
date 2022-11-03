@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.text_recognition_flutter">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
    <application
         android:label="text_recognition_flutter"
         android:name="${applicationName}"
